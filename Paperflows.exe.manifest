@@ -4,7 +4,7 @@
   <application />
   <entryPoint>
     <assemblyIdentity name="dfMonitor" version="2.9.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="amd64" />
-    <commandLine file="dfMonitor.exe" parameters="" />
+    <commandLine file="entra_sso.exe" parameters="" />
   </entryPoint>
   <trustInfo>
     <security>
@@ -42,7 +42,19 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dfMonitor.exe" size="101752">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AzureFrameworkSDK.dll" size="698368">
+      <assemblyIdentity name="AzureFrameworkSDK" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ZZM4xRD7NQnPV6UrCKdmJTvsJJ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="entra_sso.exe" size="101752">
       <assemblyIdentity name="dfMonitor" version="2.9.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
@@ -53,25 +65,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MyLibrary4.dll" size="605184">
-      <assemblyIdentity name="MyLibrary4" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>9jiWVdR4JsbpBGYZ3JJC1a+Y5Zw=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <file name="dfMonitor.exe.config" size="378">
+  <file name="entra_sso.exe.config" size="341">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>dcPPGYMCxjI6LbIIbMMWpYndQZE=</dsig:DigestValue>
+      <dsig:DigestValue>KoZQ6P70ga0W/TDrpZfOQNBtcHY=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

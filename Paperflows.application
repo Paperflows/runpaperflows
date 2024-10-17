@@ -3,21 +3,21 @@
   <assemblyIdentity name="Paperflows.app" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="Paperflows" asmv2:product="Paperflows" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="false">
-    <deploymentProvider codebase="https://raw.githubusercontent.com/Paperflows/RunPaperflows/main/Paperflows.application" />
+    <deploymentProvider codebase="https://paperflows.net/Paperflows.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.8" profile="Client" supportedRuntime="4.0.30319" />
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Paperflows.exe.manifest" size="4120">
+    <dependentAssembly dependencyType="install" codebase="Paperflows.exe.manifest" size="4134">
       <assemblyIdentity name="Paperflows.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>EYulDIPRR8Qm31XjSz0jYMsMhIk=</dsig:DigestValue>
+        <dsig:DigestValue>jvG13v3MpftsWbdP9CFPfuqQUjY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
