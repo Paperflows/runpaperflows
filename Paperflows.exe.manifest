@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>3X+eQOJBOMpmDPyfxlEcBx1jI+c=</dsig:DigestValue>
+        <dsig:DigestValue>wlmHAlfIhYSjRIGt7Hs/jopcgAo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -65,13 +65,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="entra_sso.exe.config" size="383">
+  <file name="entra_sso.exe.config" size="360">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>j5dXuV01upwiIL3O2IYSuDYtuIg=</dsig:DigestValue>
+      <dsig:DigestValue>/vHHFdE7aHN6Dba4RyIieXM0Fo4=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

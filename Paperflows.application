@@ -3,7 +3,7 @@
   <assemblyIdentity name="Paperflows.app" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="Paperflows" asmv2:product="Paperflows" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="false">
-    <deploymentProvider codebase="https://paperflows.github.io/runpaperflows/Paperflows.application\Paperflows.application" />
+    <deploymentProvider codebase="https://paperflows.github.io/runpaperflows\Paperflows.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.8" profile="Client" supportedRuntime="4.0.30319" />
@@ -17,7 +17,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/jcE97Q2aW2ff82a0ZX7UDGYD8E=</dsig:DigestValue>
+        <dsig:DigestValue>74w4I8REXzvloqROX8/QLBLvZCw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
