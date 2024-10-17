@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AzureFrameworkSDK.dll" size="698368">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AzureFrameworkSDK.dll" size="698880">
       <assemblyIdentity name="AzureFrameworkSDK" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ZZM4xRD7NQnPV6UrCKdmJTvsJJ4=</dsig:DigestValue>
+        <dsig:DigestValue>3X+eQOJBOMpmDPyfxlEcBx1jI+c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -65,13 +65,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="entra_sso.exe.config" size="341">
+  <file name="entra_sso.exe.config" size="383">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>KoZQ6P70ga0W/TDrpZfOQNBtcHY=</dsig:DigestValue>
+      <dsig:DigestValue>j5dXuV01upwiIL3O2IYSuDYtuIg=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
